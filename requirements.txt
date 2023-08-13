@@ -1,0 +1,9 @@
+numpy
+pandas
+matplotlib
+pdfminer.six
+scikit-learn
+torch 
+transformers
+tensorboard
+
