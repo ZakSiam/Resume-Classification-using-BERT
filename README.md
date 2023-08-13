@@ -43,7 +43,7 @@ After extracting the Script Development.zip file, inside the Script Development 
 
 For getting a sample output, the ‘Test Input’ directory was created that contains a total of 50 resumes in pdf format (as a sample test set), which were randomly collected from the original dataset given in pdf format.
 
-The accuracy of the BERT model's predictions for these input 50 resumes, when compared to the ground truth, is around 80%.
+The prediction accuracy of the best BERT model for these 50 resumes from the input directory, while compared to the corresponding ground truth categories, is approximately 80%.
 
 For the visualization of the training progress, one can use the following command while training the BERT model using the 'BERT.py' file.
 
