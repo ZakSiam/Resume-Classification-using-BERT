@@ -27,7 +27,7 @@ Installation
   pip install -r requirements.txt
 ``` 
 
-First unzip Data.zip and Script Development.zip files. 
+First unzip Data.zip and Script Development.zip files. After extracting the Script Development.zip file, the script.py file can be found inside the directory './Script Development/'
 
 Download the trained BERT model results ('BERT Results.zip' file) from this link.
 
@@ -39,7 +39,7 @@ Instructions on how to run the script and expected outputs.
   python script.py "./Script Development/Test Input"
 ```
 
-After extracting the Script Development.zip file, inside the Script Development folder, the Test Input directory contains a bunch of resumes in PDF format. Using the saved best BERT model (which can be found inside the directory './BERT Results/saved_model' after extracting the 'BERT Results.zip' file), the predicted results in both directory structures and csv format are stored in the './Script Development/Sample Output' directory.
+Inside the Script Development folder, the Test Input directory contains a bunch of resumes in PDF format. Using the saved best BERT model (which can be found inside the directory './BERT Results/saved_model' after extracting the 'BERT Results.zip' file), the predicted results in both directory structures and csv format are stored in the './Script Development/Sample Output' directory.
 
 For getting a sample output, the ‘Test Input’ directory was created that contains a total of 50 resumes in pdf format (as a sample test set), which were randomly collected from the original dataset given in pdf format.
 
