@@ -48,6 +48,6 @@ The prediction accuracy of the best BERT model for these 50 resumes from the inp
 For the visualization of the training progress, one can use the following command while training the BERT model using the 'BERT.py' file.
 
 ```bash
-  tensorboard ---logdir "./BERT Results/logs"
+  tensorboard --logdir "./BERT Results/logs"
 ```
 
